@@ -1,4 +1,7 @@
 {
   "Welcome to React": "Вітаемо у реакт",
-  "language": "English"
+  "language": "English",
+  "NotFound": "Page not found",
+  "an unexpected error": "An unexpected error",
+  "Reload Page": "Reload Page"
 }
