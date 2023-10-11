@@ -80,10 +80,16 @@
     "i18next": "^23.5.1",
     "i18next-browser-languagedetector": "^7.1.0",
     "i18next-http-backend": "^2.2.2",
+    "identity-obj-proxy": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^13.2.2",
     "react-router-dom": "^6.16.0"
+  },
+  "overrides": {
+    "loki": {
+      "@storybook/react": "$@storybook/react"
+    }
   },
   "loki": {
     "configurations": {
