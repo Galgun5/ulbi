@@ -1,7 +1,6 @@
 import { RuleSetRule } from 'webpack';
-import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { BuildOptions } from './types/config';
-import {buildCssLoader} from './loaders/buildCssLoader';
+import { buildCssLoader } from './loaders/buildCssLoader';
 
 export function buildLoaders({ isDev }: BuildOptions): RuleSetRule[] {
     const svgLoader = {
