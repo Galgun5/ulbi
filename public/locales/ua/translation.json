@@ -1,7 +1,12 @@
 {
   "Welcome to React": "Вітаемо у реакт",
   "language": "English",
-  "NotFound": "Page not found",
-  "an unexpected error": "An unexpected error",
-  "Reload Page": "Reload Page"
+
+  "NotFound": "Сторінка не знайдена",
+  "an unexpected error": "Сталася непередбачена помилка",
+  "Reload Page": "Оновити сторінку",
+  "About": "Про нас",
+  "Main": "Головна"
 }
+
+
