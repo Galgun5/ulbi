@@ -31,7 +31,6 @@ module.exports = {
         indent: [2, 4],
         'no-shadow': 'off',
         'no-underscore-dangle': 'off',
-        'no-unused-vars': 'warn',
         'react/function-component-definition': 'off',
         'react/jsx-filename-extension': [
             2,
@@ -48,6 +47,8 @@ module.exports = {
                 ignoreAttribute: ['data-testid', 'to'],
             }],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': ['warn'],
     },
     globals: {
         __IS_DEV__: true,

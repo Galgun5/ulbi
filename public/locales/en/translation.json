@@ -1,6 +1,7 @@
 {
   "Welcome to React": "Welcome to React",
   "language": "Українська",
+  "shortLanguage": "ua",
   "NotFound": "Page not found",
   "an unexpected error": "An unexpected error",
   "Reload Page": "Reload Page",
