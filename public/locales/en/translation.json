@@ -7,5 +7,7 @@
   "Reload Page": "Reload Page",
   "About": "About",
   "Main": "Main",
-  "logIn": "Log In"
+  "logIn": "Log In",
+  "increment": "increment",
+  "decrement": "decrement"
 }
