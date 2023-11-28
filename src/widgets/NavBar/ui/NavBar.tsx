@@ -2,7 +2,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
-import { Modal } from 'shared/ui/Modal/Modal';
+import { LoginModal } from 'features/AuthByUserName';
 import cls from './Navbar.module.scss';
 
 interface NavBarProps {
@@ -12,8 +12,12 @@ interface NavBarProps {
 export const NavBar = ({ className }: NavBarProps) => {
     const [isAuthModal, setIsAuthModal] = useState(false);
 
-    const onToggleModal = useCallback(() => {
-        setIsAuthModal((prev) => !prev);
+    const onCloseModal = useCallback(() => {
+        setIsAuthModal(false);
+    }, []);
+
+    const onOpenModal = useCallback(() => {
+        setIsAuthModal(true);
     }, []);
 
     const { t } = useTranslation();
@@ -22,17 +26,11 @@ export const NavBar = ({ className }: NavBarProps) => {
             <Button
                 theme={ButtonTheme.CLEAR_INVERTED}
                 className={cls.links}
-                onClick={onToggleModal}
+                onClick={onOpenModal}
             >
                 {t('logIn')}
             </Button>
-            <Modal isOpen={isAuthModal} onClose={onToggleModal}>
-                <div>
-                    {/* eslint-disable-next-line i18next/no-literal-string */}
-                    {/* eslint-disable-next-line i18next/no-literal-string, max-len */}
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa cum earum error ipsa laudantium magnam mollitia numquam perferendis quibusdam? Assumenda laboriosam maxime nemo neque numquam reprehenderit voluptatem. Nobis, unde.
-                </div>
-            </Modal>
+            <LoginModal isOpen={isAuthModal} onClose={onCloseModal} />
         </div>
     );
 };
