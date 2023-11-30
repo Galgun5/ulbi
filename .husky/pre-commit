@@ -5,4 +5,5 @@ run: npm run build:prod
 run: npm run lint:ts
 run: npm run lint:scss
 run: npm run test:unit
+run: npm run test:ui
 run: npm run storybook:build
