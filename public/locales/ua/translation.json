@@ -9,7 +9,11 @@
   "Main": "Головна",
   "logIn": "Увійти",
   "increment": "додати",
-  "decrement": "відняти"
+  "decrement": "відняти",
+  "Auth Form": "Auth Form",
+  "uncorrec login or password": "uncorrec login or password",
+  "uncorrect login or password": "uncorrect login or password",
+  "logOut": "logOut"
 }
 
 

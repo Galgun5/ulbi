@@ -30,11 +30,13 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = (props) => {
         theme,
         square,
         size,
+        disabled,
         ...otherProps
     } = props;
 
     const mods: Record<string, boolean> = {
         [cls.square]: square,
+        [cls.disabled]: disabled,
     };
 
     return (
@@ -46,6 +48,7 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = (props) => {
                     [className, cls[theme], cls[size]],
                 )
             }
+            disabled={disabled}
             type="button"
             {...otherProps}
         >

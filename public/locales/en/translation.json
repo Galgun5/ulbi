@@ -9,5 +9,10 @@
   "Main": "Main",
   "logIn": "Log In",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "Auth Form": "Auth Form",
+  "wrong login or password": "wrong login or password",
+  "uncorrec login or password": "uncorrec login or password",
+  "uncorrect login or password": "uncorrect login or password",
+  "logOut": "logOut"
 }
