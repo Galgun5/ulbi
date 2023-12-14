@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Nick",
+    "lastname": "P",
+    "age": "25",
+    "currency": "UAH",
+    "country": "Ukraine",
+    "city": "Dnipro",
+    "username": "admin",
+    "avatar": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nj.com%2Fresizer%2FzovGSasCaR41h_yUGYHXbVTQW2A%3D%2F1280x0%2Fsmart%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fadvancelocal%2FSJGKVE5UNVESVCW7BBOHKQCZVE.jpg&tbnid=fKIHJOyucpbkvM&vet=12ahUKEwiZrsDF7v2CAxWC5wIHHRMuAJIQMygKegQIARBg..i&imgrefurl=https%3A%2F%2Fwww.nj.com%2Fentertainment%2F2020%2F05%2Feveryones-posting-their-facebook-avatar-how-to-make-yours-even-if-it-looks-nothing-like-you.html&docid=5Log_sOiACoGzM&w=1280&h=882&q=avatar%20picture&ved=2ahUKEwiZrsDF7v2CAxWC5wIHHRMuAJIQMygKegQIARBg"
+  }
 }
