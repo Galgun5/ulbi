@@ -46,7 +46,7 @@ export const Input = memo((props: InputProps) => {
 
     const onSelect = (e: any) => {
         const target = (e.target as HTMLInputElement);
-        setCaretPosition(target.selectionStart);
+        setCaretPosition(target.selectionStart || 0);
     };
 
     const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {

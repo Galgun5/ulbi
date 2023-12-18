@@ -10,11 +10,13 @@ export interface BuildPath {
 export interface BuildEnv {
     mode: BuildMode;
     port: number;
+    apiUrl: string;
 }
 
 export interface BuildOptions {
     mode: BuildMode;
     paths: BuildPath;
     isDev: boolean;
-    port: number
+    port: number;
+    apiUrl: string;
 }
