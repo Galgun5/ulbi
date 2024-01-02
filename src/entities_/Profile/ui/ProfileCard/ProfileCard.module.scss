@@ -11,10 +11,29 @@
     margin-left: 20px;
 }
 
-.data {
-    margin-top: 20px;
-}
-
 .input {
     margin-top: 10px;
+}
+
+.avatarWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.loading {
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.error {
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.editing {
+    border: 2px solid var(--inverted-primary-color);
 }

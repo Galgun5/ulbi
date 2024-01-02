@@ -1,5 +1,6 @@
 .ProfilePage {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     font: var(--font-l);
 }

@@ -17,3 +17,12 @@ export const Primary: Story = {
     },
 
 };
+
+export const ReadOnly: Story = {
+    args: {
+        placeholder: 'Type text',
+        value: 'value',
+        children: 'Button',
+        readOnly: true,
+    },
+};
