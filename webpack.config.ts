@@ -24,5 +24,6 @@ export default ({
         isDev,
         port,
         apiUrl,
+        project: 'frontend',
     });
 };
