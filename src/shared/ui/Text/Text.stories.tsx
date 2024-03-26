@@ -1,7 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { Text, TextAlign, TextTheme } from './Text';
+import {
+    Text, TextAlign, TextSize, TextTheme,
+} from './Text';
 
 const meta = {
     title: 'shared/Text',
@@ -80,4 +82,11 @@ export const onlyTextDark: Story = {
         text: 'Text',
     },
     decorators: [ThemeDecorator(Theme.DARK)],
+};
+
+export const sizeL: Story = {
+    args: {
+        text: 'Text',
+        size: TextSize.L,
+    },
 };

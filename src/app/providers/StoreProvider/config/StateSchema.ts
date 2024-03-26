@@ -12,12 +12,16 @@ import { LoginSchema } from 'features/AuthByUserName';
 import { AxiosInstance } from 'axios';
 import { To } from '@remix-run/router';
 import { NavigateOptions } from 'react-router/dist/lib/context';
+import { ArticleDetailsSchema } from 'entities_/Artcle';
 
 export interface StateSchema {
     counter: CounterScheme;
     user: UserSchema;
+
+    // async reducers
     loginForm?: LoginSchema;
     profile?: ProfileSchema;
+    articleDetails?: ArticleDetailsSchema;
 }
 
 export type StateSchemaKey = keyof StateSchema;
