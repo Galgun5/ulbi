@@ -14,6 +14,7 @@ const data = {
     first: 'First Name',
     city: 'Dnipro',
     currency: Currency.UAH,
+    id: '1',
 };
 
 describe('updateProfileData', () => {

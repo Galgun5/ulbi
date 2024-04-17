@@ -22,6 +22,8 @@ import { Currency } from 'entities_/Currency';
 import { Country } from 'entities_/Country';
 import { Text, TextTheme } from 'shared/ui/Text/Text';
 import { useTranslation } from 'react-i18next';
+import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect';
+import { useParams } from 'react-router-dom';
 import { ProfilePageHeader } from './ProfilePageHeader/ProfilePageHeader';
 import cls from './ProfilePage.module.scss';
 
@@ -42,6 +44,8 @@ const ProfilePage = ({ className }: NotFoundPageProps) => {
     const readOnly = useSelector(getProfileReadonly);
     const validateErrors = useSelector(getProfileValidateErrors);
 
+    const { id } = useParams<{id: string}>();
+
     const dispatch = useAppDispatch();
 
     const validateErrorTranslates = {
@@ -52,11 +56,10 @@ const ProfilePage = ({ className }: NotFoundPageProps) => {
         [ValidateProfileError.INCORRECT_COUNTRY]: t('Incorrect country'),
     };
 
-    useEffect(() => {
-        if (__PROJECT__ !== 'storybook') {
-            dispatch(fetchProfileData());
-        }
-    }, [dispatch]);
+    useInitialEffect(() => {
+        if (!id) return;
+        dispatch(fetchProfileData(id));
+    });
 
     const onChangeFirstname = useCallback((value?: string) => {
         dispatch(profileActions.updateProfile({
