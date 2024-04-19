@@ -120,6 +120,12 @@
       "userId": "1",
       "text": "123ada asfa123",
       "id": "LgjPQ94"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "add comment",
+      "id": "3wzR5tA"
     }
   ],
   "users": [
@@ -136,6 +142,13 @@
       "password": "123",
       "role": "USER",
       "avatar": "https://i.pravatar.cc/?img=12"
+    },
+    {
+      "id": "3",
+      "username": "DEN",
+      "password": "123",
+      "role": "USER",
+      "avatar": "https://i.pravatar.cc/?img=11"
     }
   ],
   "profile": [
@@ -145,32 +158,32 @@
       "lastname": "P",
       "age": 25,
       "currency": "USD",
-      "country": "Ukraine",
-      "city": "Dnipro",
+      "country": "Poland",
+      "city": "Krakiv",
       "username": "Wolframium",
       "avatar": "https://i.pravatar.cc/?img=9"
     },
     {
       "id": "2",
-      "first": "Den",
+      "first": "Nick",
       "lastname": "B",
       "age": 25,
       "currency": "UAH",
       "country": "Ukraine",
       "city": "Dnipro",
-      "username": "DARKDEN",
-      "avatar": "https://i.pravatar.cc/?img=11"
+      "username": "Wolframium",
+      "avatar": "https://i.pravatar.cc/?img=12"
     },
     {
       "id": "3",
-      "first": "User",
-      "lastname": "2",
-      "age": 32,
+      "first": "Den",
+      "lastname": "",
+      "age": 26,
       "currency": "EUR",
-      "country": "Poland",
-      "city": "Krakiv",
-      "username": "username",
-      "avatar": "https://i.pravatar.cc/?img=15"
+      "country": "Ukraine",
+      "city": "Dnipro",
+      "username": "DARKDEN ",
+      "avatar": "https://i.pravatar.cc/?img=11"
     }
   ]
 }
