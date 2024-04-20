@@ -1,21 +1,26 @@
-import {
-    Meta, StoryObj,
-} from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 
-import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
-import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
-import { Theme } from 'app/providers/ThemeProvider';
-import { Article, ArticleBlockType, ArticleType } from '../../model/types/article';
-import { ArticleDetails } from './ArticleDetails';
+import { ArticleListItem } from './ArticleListItem';
+import { Article, ArticleView } from '../../model/types/article';
 
-const article: Article = {
+const meta = {
+    title: 'entities_/Article/ArticleListItem',
+    component: ArticleListItem,
+} satisfies Meta<typeof ArticleListItem>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+const article = {
     id: '1',
     title: 'Javascript news',
     subtitle: "What's new in JS for 2024?",
     img: 'https://teknotower.com/wp-content/uploads/2020/11/js.png',
     views: 1022,
     createdAt: '26.02.2022',
-    type: [ArticleType.IT],
+    type: [
+        'IT',
+    ],
     user: {
         id: '1',
         username: 'user',
@@ -24,7 +29,7 @@ const article: Article = {
     blocks: [
         {
             id: '1',
-            type: ArticleBlockType.TEXT,
+            type: 'TEXT',
             title: 'The title of this block is.',
             paragraphs: [
                 'The program traditionally called "Hello, world!" is very simple. It outputs somewhere the phrase "Hello, world!", or some other similar phrase, by means of some language.',
@@ -34,12 +39,12 @@ const article: Article = {
         },
         {
             id: '4',
-            type: ArticleBlockType.CODE,
+            type: 'CODE',
             code: '<!DOCTYPE html>\n<html>\n  <body>\n    <p id="hello"></p>\n\n    <script>\n      document.getElementById("hello").innerHTML = "Hello, world!";\n    </script>\n  </body>\n</html>;',
         },
         {
             id: '5',
-            type: ArticleBlockType.TEXT,
+            type: 'TEXT',
             title: 'The title of this block is.',
             paragraphs: [
                 'The program traditionally called "Hello, world!" is very simple. It outputs the phrase "Hello, world!", or another similar phrase, using some language.',
@@ -48,18 +53,18 @@ const article: Article = {
         },
         {
             id: '2',
-            type: ArticleBlockType.IMAGE,
+            type: 'IMAGE',
             src: 'https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png',
             title: 'Figure 1 - screenshot of the site',
         },
         {
             id: '3',
-            type: ArticleBlockType.CODE,
+            type: 'CODE',
             code: "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);",
         },
         {
             id: '7',
-            type: ArticleBlockType.TEXT,
+            type: 'TEXT',
             title: 'The title of this block is.',
             paragraphs: [
                 "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
@@ -68,56 +73,32 @@ const article: Article = {
         },
         {
             id: '8',
-            type: ArticleBlockType.IMAGE,
+            type: 'IMAGE',
             src: 'https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png',
             title: 'Figure 1 - screenshot of the site',
         },
         {
             id: '9',
-            type: ArticleBlockType.TEXT,
+            type: 'TEXT',
             title: 'The title of this block is.',
             paragraphs: [
                 "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
             ],
         },
     ],
-};
+} as Article;
 
-const meta = {
-    title: 'entities_/ArticleDetails',
-    component: ArticleDetails,
-    argTypes: {
-
-        // backgroundColor: { control: 'color' },
-    },
+export const Big: Story = {
     args: {
-        id: '1',
+        view: ArticleView.BIG,
+        article,
     },
-    decorators: [StoreDecorator({
-        articleDetails: {
-            data: article,
-        },
-    })],
-} satisfies Meta<typeof ArticleDetails>;
 
-export default meta;
-type Story = StoryObj<typeof meta>;
+};
+export const Small: Story = {
+    args: {
+        view: ArticleView.SMALL,
+        article,
+    },
 
-export const Primary: Story = {};
-export const Dark: Story = {
-    decorators: [ThemeDecorator(Theme.DARK)],
-};
-export const Loading: Story = {
-    decorators: [StoreDecorator({
-        articleDetails: {
-            isLoading: true,
-        },
-    })],
-};
-export const Error: Story = {
-    decorators: [StoreDecorator({
-        articleDetails: {
-            error: 'error',
-        },
-    })],
 };
