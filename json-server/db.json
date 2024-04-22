@@ -83,6 +83,294 @@
           ]
         }
       ]
+    },
+    {
+      "id": "2",
+      "title": "Python news",
+      "subtitle": "What's new in Python for 2024?",
+      "img": "data:image/jpeg;base64,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",
+      "views": 4444,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs somewhere the phrase \"Hello, world!\", or some other similar phrase, by means of some language.",
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a line of code in JS until now and you're reading this text in a browser, on a desktop computer, that means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. So, if we talk about the common use of JavaScript programs, they are loaded into the browser to make web pages work. As a rule, the code is designed as separate files with the extension .js, which are attached to web pages, but program code can be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in some text editor (e.g. VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs the phrase \"Hello, world!\", or another similar phrase, using some language.",
+            "There are other ways to run JS code in the browser. For example, in common usage, JavaScript programs are loaded into the browser to make web pages work. As a rule, the code is formatted as separate files with the extension .js, which are attached to web pages, but program code can also be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Figure 1 - screenshot of the site"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For example, in common usage, JavaScript programs are loaded into the browser to make web pages work. As a rule, the code is formatted as separate files with the extension .js, which are attached to web pages, but program code can also be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "8",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Figure 1 - screenshot of the site"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Java news",
+      "subtitle": "What's new in Java for 2024?",
+      "img": "data:image/png;base64,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",
+      "views": 2134,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs somewhere the phrase \"Hello, world!\", or some other similar phrase, by means of some language.",
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a line of code in JS until now and you're reading this text in a browser, on a desktop computer, that means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. So, if we talk about the common use of JavaScript programs, they are loaded into the browser to make web pages work. As a rule, the code is designed as separate files with the extension .js, which are attached to web pages, but program code can be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in some text editor (e.g. VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs the phrase \"Hello, world!\", or another similar phrase, using some language.",
+            "There are other ways to run JS code in the browser. For example, in common usage, JavaScript programs are loaded into the browser to make web pages work. As a rule, the code is formatted as separate files with the extension .js, which are attached to web pages, but program code can also be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Figure 1 - screenshot of the site"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For example, in common usage, JavaScript programs are loaded into the browser to make web pages work. As a rule, the code is formatted as separate files with the extension .js, which are attached to web pages, but program code can also be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "8",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Figure 1 - screenshot of the site"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "C++ news",
+      "subtitle": "What's new in C++ for 2024?",
+      "img": "data:image/png;base64,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",
+      "views": 312,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs somewhere the phrase \"Hello, world!\", or some other similar phrase, by means of some language.",
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a line of code in JS until now and you're reading this text in a browser, on a desktop computer, that means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. So, if we talk about the common use of JavaScript programs, they are loaded into the browser to make web pages work. As a rule, the code is designed as separate files with the extension .js, which are attached to web pages, but program code can be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in some text editor (e.g. VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs the phrase \"Hello, world!\", or another similar phrase, using some language.",
+            "There are other ways to run JS code in the browser. For example, in common usage, JavaScript programs are loaded into the browser to make web pages work. As a rule, the code is formatted as separate files with the extension .js, which are attached to web pages, but program code can also be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Figure 1 - screenshot of the site"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For example, in common usage, JavaScript programs are loaded into the browser to make web pages work. As a rule, the code is formatted as separate files with the extension .js, which are attached to web pages, but program code can also be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "8",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Figure 1 - screenshot of the site"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Ruby news",
+      "subtitle": "What's new in Ruby for 2024?",
+      "img": "data:image/jpeg;base64,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",
+      "views": 1322,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs somewhere the phrase \"Hello, world!\", or some other similar phrase, by means of some language.",
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a line of code in JS until now and you're reading this text in a browser, on a desktop computer, that means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. So, if we talk about the common use of JavaScript programs, they are loaded into the browser to make web pages work. As a rule, the code is designed as separate files with the extension .js, which are attached to web pages, but program code can be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in some text editor (e.g. VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs the phrase \"Hello, world!\", or another similar phrase, using some language.",
+            "There are other ways to run JS code in the browser. For example, in common usage, JavaScript programs are loaded into the browser to make web pages work. As a rule, the code is formatted as separate files with the extension .js, which are attached to web pages, but program code can also be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Figure 1 - screenshot of the site"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. For example, in common usage, JavaScript programs are loaded into the browser to make web pages work. As a rule, the code is formatted as separate files with the extension .js, which are attached to web pages, but program code can also be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in a text editor (e.g., VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        },
+        {
+          "id": "8",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Figure 1 - screenshot of the site"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a single line of JS code so far and you're reading this text in a browser, on a desktop computer, it means you're literally seconds away from your first JavaScript program."
+          ]
+        }
+      ]
     }
   ],
   "comments": [
