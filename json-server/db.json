@@ -371,6 +371,550 @@
           ]
         }
       ]
+    },
+    {
+      "id": "6",
+      "title": "Ruby news2",
+      "subtitle": "What's new in Ruby for 2024?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 1322,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "The title of this block is.",
+          "paragraphs": [
+            "The program traditionally called \"Hello, world!\" is very simple. It outputs somewhere the phrase \"Hello, world!\", or some other similar phrase, by means of some language.",
+            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written a line of code in JS until now and you're reading this text in a browser, on a desktop computer, that means you're literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in the browser. So, if we talk about the common use of JavaScript programs, they are loaded into the browser to make web pages work. As a rule, the code is designed as separate files with the extension .js, which are attached to web pages, but program code can be included directly in the code of the page. All this is done with the <script> tag. When the browser detects such code, it executes it. You can learn more about the script tag at w3school.com. In particular, let's look at an example that demonstrates how to work with a web page using JavaScript, given on this resource. This example can also be run using this resource (look for the Try it Yourself button), but we'll do things a little differently. Namely, we'll create a new file in some text editor (e.g. VS Code or Notepad++) called hello.html and add the following code to it:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Introduction to Machine Learning",
+      "subtitle": "Exploring the basics of ML algorithms",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2150,
+      "createdAt": "15.04.2023",
+      "userId": "2",
+      "type": [
+        "Technology",
+        "Education"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "What is Machine Learning?",
+          "paragraphs": [
+            "Machine Learning (ML) is a subset of artificial intelligence (AI) that provides systems the ability to learn and improve from experience without being explicitly programmed. It focuses on developing algorithms that can automatically learn and make predictions or decisions based on data.",
+            "In essence, ML algorithms learn from historical data to identify patterns and make informed decisions or predictions on new, unseen data. This capability is increasingly used in various applications, from recommendation systems and image recognition to autonomous vehicles and natural language processing.",
+            "Key concepts in ML include supervised learning, unsupervised learning, and reinforcement learning, each suited to different types of tasks and data."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Example of a Machine Learning Model",
+          "imageUrl": "https://example.com/ml_model.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Popular ML Algorithms",
+          "paragraphs": [
+            "Some popular ML algorithms include linear regression, logistic regression, decision trees, random forests, support vector machines (SVM), k-nearest neighbors (KNN), and neural networks.",
+            "These algorithms are used for tasks such as classification, regression, clustering, dimensionality reduction, and more, depending on the nature of the problem and the type of data available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Cryptocurrency Trends in 2024",
+      "subtitle": "Exploring the latest developments in the crypto market",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 3000,
+      "createdAt": "10.05.2024",
+      "userId": "3",
+      "type": [
+        "Finance",
+        "Technology"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Current State of Cryptocurrencies",
+          "paragraphs": [
+            "Cryptocurrencies continue to gain mainstream acceptance and adoption. Bitcoin and Ethereum remain dominant, but new players and technologies are emerging.",
+            "DeFi (Decentralized Finance) applications are growing rapidly, providing innovative financial services without traditional intermediaries.",
+            "NFTs (Non-Fungible Tokens) are revolutionizing digital ownership and art markets, creating new opportunities and challenges."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Bitcoin and Ethereum Price Chart",
+          "imageUrl": "https://example.com/crypto_chart.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Emerging Blockchain Technologies",
+          "paragraphs": [
+            "New blockchain technologies like Polkadot and Solana are gaining attention for their scalability and interoperability features.",
+            "Layer 2 solutions such as Lightning Network and Polygon are addressing scalability issues of Ethereum, enabling faster and cheaper transactions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Future of Space Exploration",
+      "subtitle": "Advancements and challenges in space technology",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2500,
+      "createdAt": "28.06.2024",
+      "userId": "4",
+      "type": [
+        "Science",
+        "Technology"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Current Space Missions",
+          "paragraphs": [
+            "Space agencies and private companies are planning ambitious missions to the Moon, Mars, and beyond.",
+            "Advancements in propulsion technologies like ion drives and reusable rockets are reducing the cost of space travel.",
+            "Exploration of exoplanets and the search for extraterrestrial life are key areas of interest."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "NASA's Artemis Mission to the Moon",
+          "imageUrl": "https://example.com/artemis_mission.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Challenges in Space Exploration",
+          "paragraphs": [
+            "Space debris poses a growing threat to satellites and spacecraft.",
+            "Long-duration space missions present health risks to astronauts, requiring advanced life support systems."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Future Trends in Artificial Intelligence",
+      "subtitle": "Predictions for AI advancements in 2024",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 3500,
+      "createdAt": "12.07.2024",
+      "userId": "5",
+      "type": [
+        "Technology",
+        "Science"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "AI Applications Across Industries",
+          "paragraphs": [
+            "AI is transforming healthcare, finance, transportation, and other sectors with predictive analytics and automation.",
+            "Natural Language Processing (NLP) models like GPT-4 are achieving human-like text generation and understanding.",
+            "AI-driven robotics and autonomous systems are reshaping manufacturing and logistics."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Deep Learning Neural Network",
+          "imageUrl": "https://example.com/neural_network.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Ethical Considerations in AI Development",
+          "paragraphs": [
+            "AI ethics, bias mitigation, and transparency are critical topics for responsible AI deployment.",
+            "Regulatory frameworks and guidelines are evolving to address AI's societal impacts and ethical dilemmas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Renewable Energy Innovations",
+      "subtitle": "Advancements in solar, wind, and hydro technologies",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 1800,
+      "createdAt": "03.09.2024",
+      "userId": "6",
+      "type": [
+        "Technology",
+        "Environment"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Current Trends in Renewable Energy",
+          "paragraphs": [
+            "Solar power continues to become more affordable and efficient, with innovations in photovoltaic technology.",
+            "Wind turbines are growing in size and efficiency, contributing significantly to global electricity generation.",
+            "Hydroelectric power remains a reliable source of renewable energy, with new projects focusing on sustainability."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Solar Panels Installation",
+          "imageUrl": "https://example.com/solar_panels.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Challenges and Opportunities in Renewable Energy",
+          "paragraphs": [
+            "Energy storage solutions like batteries and pumped hydro are key to integrating renewable energy into the grid.",
+            "Policy support and investment in clean energy infrastructure are essential for accelerating the energy transition."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Emerging Trends in Biotechnology",
+      "subtitle": "Innovations driving advancements in life sciences",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2200,
+      "createdAt": "19.10.2024",
+      "userId": "7",
+      "type": [
+        "Science",
+        "Health"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Biotechnological Breakthroughs",
+          "paragraphs": [
+            "CRISPR gene-editing technology is revolutionizing genetic engineering and personalized medicine.",
+            "Biopharmaceuticals and biologics are driving innovation in disease treatment and prevention.",
+            "Synthetic biology is enabling the design of novel organisms for various applications."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "CRISPR-Cas9 Gene Editing",
+          "imageUrl": "https://example.com/crispr_gene_editing.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Ethical and Regulatory Considerations",
+          "paragraphs": [
+            "Ethical debates surround gene editing and genetically modified organisms (GMOs), requiring robust governance frameworks.",
+            "Regulatory agencies are adapting to the fast-paced advancements in biotechnology to ensure safety and ethical standards."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Future of Autonomous Vehicles",
+      "subtitle": "Technological advancements in self-driving cars",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2700,
+      "createdAt": "05.11.2024",
+      "userId": "8",
+      "type": [
+        "Technology",
+        "Transportation"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Advancements in Autonomous Driving",
+          "paragraphs": [
+            "Companies like Tesla, Waymo, and Cruise are leading the development of self-driving technologies.",
+            "AI-powered perception systems and advanced sensors enable vehicles to navigate complex environments.",
+            "Regulatory frameworks are evolving to address safety and liability concerns associated with autonomous vehicles."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Self-Driving Car on City Road",
+          "imageUrl": "https://example.com/self_driving_car.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Challenges and Future Prospects",
+          "paragraphs": [
+            "Technical challenges include real-time decision-making and human-machine interaction.",
+            "Integration of autonomous vehicles into existing transportation systems requires infrastructure upgrades and policy support."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "The Evolution of Quantum Computing",
+      "subtitle": "Breakthroughs and applications in quantum technologies",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 1900,
+      "createdAt": "21.12.2024",
+      "userId": "9",
+      "type": [
+        "Technology",
+        "Science"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Fundamentals of Quantum Computing",
+          "paragraphs": [
+            "Quantum computers leverage quantum phenomena such as superposition and entanglement for computation.",
+            "Qubits, the basic units of quantum information, enable exponential computational power compared to classical computers.",
+            "Major players like IBM, Google, and D-Wave are advancing quantum computing technologies."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Quantum Computer Chip",
+          "imageUrl": "https://example.com/quantum_chip.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Applications of Quantum Computing",
+          "paragraphs": [
+            "Quantum computing holds promise for solving complex optimization problems and simulating quantum systems.",
+            "Potential applications include cryptography, drug discovery, and material science."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Augmented Reality Trends in 2024",
+      "subtitle": "Innovations shaping the AR landscape",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2300,
+      "createdAt": "02.01.2025",
+      "userId": "10",
+      "type": [
+        "Technology",
+        "Entertainment"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Advancements in AR Technology",
+          "paragraphs": [
+            "AR platforms like Apple's ARKit and Google's ARCore are enabling immersive experiences on mobile devices.",
+            "AR glasses and headsets are becoming more accessible and functional, driving adoption in various industries.",
+            "Mixed reality applications are blurring the line between physical and digital worlds."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Augmented Reality Glasses",
+          "imageUrl": "https://example.com/ar_glasses.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "AR in Entertainment and Education",
+          "paragraphs": [
+            "AR is transforming gaming, live events, and educational experiences with interactive content.",
+            "Businesses are leveraging AR for marketing, training, and product visualization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Future of Wearable Technology",
+      "subtitle": "Innovations in smart wearables and health tech",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2600,
+      "createdAt": "15.02.2025",
+      "userId": "11",
+      "type": [
+        "Technology",
+        "Health"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Advances in Wearable Devices",
+          "paragraphs": [
+            "Smartwatches, fitness trackers, and health monitoring wearables are evolving with enhanced features and sensors.",
+            "Wearable technology is expanding beyond fitness to include medical diagnostics and personalized healthcare.",
+            "Integration of AI and IoT technologies is driving innovation in the wearable tech industry."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Smartwatch with Health Sensors",
+          "imageUrl": "https://example.com/smartwatch_health.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Health Applications and Privacy Concerns",
+          "paragraphs": [
+            "Wearable devices are promoting preventive healthcare and remote patient monitoring.",
+            "Data privacy and security are critical considerations in the adoption of wearable technology."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Advancements in Robotics",
+      "subtitle": "Exploring the latest in robotics technology",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2100,
+      "createdAt": "09.03.2025",
+      "userId": "12",
+      "type": [
+        "Technology",
+        "Engineering"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Current Trends in Robotics",
+          "paragraphs": [
+            "Robots are increasingly used in manufacturing, healthcare, and service industries to automate tasks.",
+            "Advancements in AI and machine learning enable robots to adapt to dynamic environments and interact with humans.",
+            "Collaborative robots (cobots) are enhancing workplace safety and efficiency."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Industrial Robot Arm",
+          "imageUrl": "https://example.com/robot_arm.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Challenges and Future Directions",
+          "paragraphs": [
+            "Ethical considerations in robot design and deployment are gaining attention.",
+            "Research in soft robotics and bio-inspired designs is pushing the boundaries of robot capabilities."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Future of Internet of Things (IoT)",
+      "subtitle": "Trends shaping the IoT landscape",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2400,
+      "createdAt": "17.04.2025",
+      "userId": "13",
+      "type": [
+        "Technology",
+        "Internet"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "IoT Ecosystem Expansion",
+          "paragraphs": [
+            "IoT devices are proliferating across homes, cities, and industries, connecting physical objects to the internet.",
+            "5G networks are facilitating faster and more reliable communication for IoT applications.",
+            "Edge computing and AI at the edge are optimizing data processing and analysis in IoT systems."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Smart Home IoT Devices",
+          "imageUrl": "https://example.com/smart_home_iot.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "IoT Security and Privacy Challenges",
+          "paragraphs": [
+            "Cybersecurity risks in IoT networks highlight the importance of robust data protection measures.",
+            "Privacy concerns arise from the collection and use of personal data by IoT devices and platforms."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Advances in Quantum Biology",
+      "subtitle": "Exploring quantum phenomena in biological systems",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 1700,
+      "createdAt": "25.05.2025",
+      "userId": "14",
+      "type": [
+        "Science",
+        "Biology"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Quantum Effects in Biological Processes",
+          "paragraphs": [
+            "Quantum coherence and entanglement play roles in photosynthesis, enzyme catalysis, and sensory perception.",
+            "Researchers are exploring quantum-inspired models to understand complex biological phenomena.",
+            "The intersection of quantum physics and biology opens new avenues for bioengineering and medicine."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "caption": "Quantum Effects in Photosynthesis",
+          "imageUrl": "https://example.com/quantum_photosynthesis.jpg"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Implications for Medicine and Bioengineering",
+          "paragraphs": [
+            "Harnessing quantum properties could lead to novel therapies and biomaterials.",
+            "Bio-inspired quantum technologies may revolutionize drug discovery and diagnostics."
+          ]
+        }
+      ]
     }
   ],
   "comments": [
