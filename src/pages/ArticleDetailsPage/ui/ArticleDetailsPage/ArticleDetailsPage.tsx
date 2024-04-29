@@ -15,7 +15,7 @@ import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch';
 import AddCommentForm from 'features/addCommentForm/ui/AddCommentForm/AddCommentForm';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { RouterPath } from 'shared/config/routeConfig/routeConfig';
-import { Page } from 'shared/ui/Page/Page';
+import { Page } from 'widgets/Page/Page';
 import {
     addCommentForArticle,
 } from '../../model/services/addCommentForArticle/addCommentForArticle';
