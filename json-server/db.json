@@ -405,8 +405,8 @@
       "createdAt": "15.04.2023",
       "userId": "2",
       "type": [
-        "Technology",
-        "Education"
+        "TECHNOLOGY",
+        "EDUCATION"
       ],
       "blocks": [
         {
@@ -446,7 +446,7 @@
       "userId": "3",
       "type": [
         "Finance",
-        "Technology"
+        "TECHNOLOGY"
       ],
       "blocks": [
         {
@@ -485,8 +485,8 @@
       "createdAt": "28.06.2024",
       "userId": "4",
       "type": [
-        "Science",
-        "Technology"
+        "SCIENCE",
+        "TECHNOLOGY"
       ],
       "blocks": [
         {
@@ -525,8 +525,8 @@
       "createdAt": "12.07.2024",
       "userId": "5",
       "type": [
-        "Technology",
-        "Science"
+        "TECHNOLOGY",
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -565,8 +565,8 @@
       "createdAt": "03.09.2024",
       "userId": "6",
       "type": [
-        "Technology",
-        "Environment"
+        "TECHNOLOGY",
+        "ENVIRONMENT"
       ],
       "blocks": [
         {
@@ -605,8 +605,8 @@
       "createdAt": "19.10.2024",
       "userId": "7",
       "type": [
-        "Science",
-        "Health"
+        "SCIENCE",
+        "HEALTH"
       ],
       "blocks": [
         {
@@ -645,8 +645,8 @@
       "createdAt": "05.11.2024",
       "userId": "8",
       "type": [
-        "Technology",
-        "Transportation"
+        "TECHNOLOGY",
+        "TRANSPORTATION"
       ],
       "blocks": [
         {
@@ -685,8 +685,7 @@
       "createdAt": "21.12.2024",
       "userId": "9",
       "type": [
-        "Technology",
-        "Science"
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -725,8 +724,7 @@
       "createdAt": "02.01.2025",
       "userId": "10",
       "type": [
-        "Technology",
-        "Entertainment"
+        "TECHNOLOGY"
       ],
       "blocks": [
         {
@@ -765,8 +763,8 @@
       "createdAt": "15.02.2025",
       "userId": "11",
       "type": [
-        "Technology",
-        "Health"
+        "TECHNOLOGY",
+        "HEALTH"
       ],
       "blocks": [
         {
@@ -805,8 +803,8 @@
       "createdAt": "09.03.2025",
       "userId": "12",
       "type": [
-        "Technology",
-        "Engineering"
+        "TECHNOLOGY",
+        "ENGINEERING"
       ],
       "blocks": [
         {
@@ -845,8 +843,8 @@
       "createdAt": "17.04.2025",
       "userId": "13",
       "type": [
-        "Technology",
-        "Internet"
+        "TECHNOLOGY",
+        "INTERNET"
       ],
       "blocks": [
         {
@@ -885,8 +883,7 @@
       "createdAt": "25.05.2025",
       "userId": "14",
       "type": [
-        "Science",
-        "Biology"
+        "SCIENCE"
       ],
       "blocks": [
         {

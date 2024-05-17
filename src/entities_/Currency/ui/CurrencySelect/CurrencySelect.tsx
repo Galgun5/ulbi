@@ -10,7 +10,7 @@ interface CurrencySelectProps {
     onChange?: (value: Currency) => void;
     readOnly?: boolean;
 }
-const options: SelectOption[] = [
+const options: SelectOption<string>[] = [
     { value: Currency.UAH, content: Currency.UAH },
     { value: Currency.USD, content: Currency.USD },
     { value: Currency.EUR, content: Currency.EUR },

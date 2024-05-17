@@ -10,7 +10,7 @@ interface CountrySelectProps {
     onChange?: (value: Country) => void;
     readOnly?: boolean;
 }
-const options: SelectOption[] = [
+const options: SelectOption<string>[] = [
     { value: Country.Ukraine, content: Country.Ukraine },
     { value: Country.USA, content: Country.USA },
     { value: Country.Poland, content: Country.Poland },
