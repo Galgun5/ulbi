@@ -8,7 +8,7 @@ import {
     ArticleType,
     ArticleView,
     ArticleViewSelector,
-} from 'entities_/Artcle';
+} from 'entities_/Article';
 import { useSelector } from 'react-redux';
 import { Card } from 'shared/ui/Card/Card';
 import { Input } from 'shared/ui/Input/Input';

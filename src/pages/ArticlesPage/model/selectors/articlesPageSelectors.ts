@@ -1,5 +1,5 @@
 import { StateSchema } from 'app/providers/StoreProvider';
-import { ArticleSortField, ArticleType, ArticleView } from 'entities_/Artcle';
+import { ArticleSortField, ArticleType, ArticleView } from 'entities_/Article';
 
 // eslint-disable-next-line max-len
 export const getArticlesPageIsLoading = (state: StateSchema) => state.articlesPage?.isLoading || false;

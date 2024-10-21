@@ -10,7 +10,7 @@ import { UserSchema } from 'entities_/User';
 import { ProfileSchema } from 'entities_/Profile';
 import { LoginSchema } from 'features/AuthByUserName';
 import { AxiosInstance } from 'axios';
-import { ArticleDetailsSchema } from 'entities_/Artcle';
+import { ArticleDetailsSchema } from 'entities_/Article';
 import { ArticleDetailsPageSchema } from 'pages/ArticleDetailsPage';
 import { AddCommentFormSchema } from 'features/addCommentForm';
 import { ArticlesPageSchema } from 'pages/ArticlesPage';

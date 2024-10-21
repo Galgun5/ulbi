@@ -2,7 +2,7 @@ import {
     Meta, StoryObj,
 } from '@storybook/react';
 
-import { ArticleView } from 'entities_/Artcle';
+import { ArticleView } from 'entities_/Article';
 import { ArticleViewSelector } from './ArticleViewSelector';
 
 const meta = {
