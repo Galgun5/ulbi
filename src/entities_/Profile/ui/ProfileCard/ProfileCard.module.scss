@@ -7,30 +7,7 @@
     display: flex;
 }
 
-.editBtn {
-    margin-left: 20px;
-}
-
-.input {
-    margin-top: 10px;
-}
-
-.avatarWrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.loading {
-    display: flex;;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-}
-
-.error {
-    display: flex;;
-    align-items: center;
-    justify-content: center;
+.loading, .error {
     height: 300px;
 }
 

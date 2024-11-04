@@ -23,6 +23,7 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
+        'plugin-by-wolfram',
     ],
     rules: {
         'import/extensions': 'off',
@@ -45,7 +46,15 @@ module.exports = {
         'i18next/no-literal-string': ['error',
             {
                 markupOnly: true,
-                ignoreAttribute: ['data-testid', 'to', 'target'],
+                ignoreAttribute: [
+                    'data-testid',
+                    'to',
+                    'target',
+                    'justify',
+                    'align',
+                    'gap',
+                    'direction',
+                ],
             }],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
         'no-unused-vars': 'off',
@@ -56,6 +65,7 @@ module.exports = {
         'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
         'no-param-reassign': 'off',
         'no-undef': 'off',
+        'plugin-by-wolfram/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,

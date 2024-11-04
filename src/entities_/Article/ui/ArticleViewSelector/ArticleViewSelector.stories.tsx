@@ -2,7 +2,7 @@ import {
     Meta, StoryObj,
 } from '@storybook/react';
 
-import { ArticleView } from 'entities_/Article';
+import { ArticleView } from '../../model/types/article';
 import { ArticleViewSelector } from './ArticleViewSelector';
 
 const meta = {
@@ -10,6 +10,7 @@ const meta = {
     component: ArticleViewSelector,
 } satisfies Meta<typeof ArticleViewSelector>;
 
+export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const SMALL: Story = {

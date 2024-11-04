@@ -405,8 +405,7 @@
       "createdAt": "15.04.2023",
       "userId": "2",
       "type": [
-        "TECHNOLOGY",
-        "EDUCATION"
+        "TECHNOLOGY"
       ],
       "blocks": [
         {
@@ -445,8 +444,7 @@
       "createdAt": "10.05.2024",
       "userId": "3",
       "type": [
-        "Finance",
-        "TECHNOLOGY"
+        "Finance"
       ],
       "blocks": [
         {
@@ -485,8 +483,7 @@
       "createdAt": "28.06.2024",
       "userId": "4",
       "type": [
-        "SCIENCE",
-        "TECHNOLOGY"
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -525,8 +522,7 @@
       "createdAt": "12.07.2024",
       "userId": "5",
       "type": [
-        "TECHNOLOGY",
-        "SCIENCE"
+        "TECHNOLOGY"
       ],
       "blocks": [
         {
@@ -565,7 +561,6 @@
       "createdAt": "03.09.2024",
       "userId": "6",
       "type": [
-        "TECHNOLOGY",
         "ENVIRONMENT"
       ],
       "blocks": [
@@ -605,8 +600,7 @@
       "createdAt": "19.10.2024",
       "userId": "7",
       "type": [
-        "SCIENCE",
-        "HEALTH"
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -645,7 +639,6 @@
       "createdAt": "05.11.2024",
       "userId": "8",
       "type": [
-        "TECHNOLOGY",
         "TRANSPORTATION"
       ],
       "blocks": [
@@ -763,8 +756,7 @@
       "createdAt": "15.02.2025",
       "userId": "11",
       "type": [
-        "TECHNOLOGY",
-        "HEALTH"
+        "TECHNOLOGY"
       ],
       "blocks": [
         {
@@ -803,8 +795,7 @@
       "createdAt": "09.03.2025",
       "userId": "12",
       "type": [
-        "TECHNOLOGY",
-        "ENGINEERING"
+        "TECHNOLOGY"
       ],
       "blocks": [
         {
@@ -843,7 +834,6 @@
       "createdAt": "17.04.2025",
       "userId": "13",
       "type": [
-        "TECHNOLOGY",
         "INTERNET"
       ],
       "blocks": [
