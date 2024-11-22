@@ -1,11 +1,11 @@
 import { DecoratorFunction } from '@storybook/types';
 import { StateSchema, StoreProvider } from 'app/providers/StoreProvider';
 import { loginReducer } from 'features/AuthByUserName/model/slice/loginSlice';
-import { profileReducer } from 'entities_/Profile';
 import { ReducerList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import { articleDetailsReducer } from 'entities_/Article/model/slice/articleDetailsSlice';
 import { addCommentFormReducer } from 'features/addCommentForm/model/slices/addCommentFormSlice';
 import { articleDetailsPageReducer } from 'pages/ArticleDetailsPage';
+import { profileReducer } from 'features/editableProfileCard/model/slice/profileSlice';
 
 const defaultAsyncReducers: ReducerList = {
     loginForm: loginReducer,

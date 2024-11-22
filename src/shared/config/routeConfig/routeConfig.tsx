@@ -6,6 +6,7 @@ import { ProfilePage } from 'pages/ProfilePage';
 import { ArticlesPage } from 'pages/ArticlesPage';
 import { ArticleDetailsPage } from 'pages/ArticleDetailsPage';
 import ArticleEditPage from 'pages/ArticleEditPage/ui/ArticleEditPage/ArticleEditPage';
+import { GamePage } from 'pages/GamePage';
 
 export type AppRoutesProps = RouteProps & {
     authOnly?: boolean;
@@ -19,6 +20,7 @@ export enum AppRoutes {
     ARTICLE_DETAILS = 'article_details',
     ARTICLE_CREATE = 'article_create',
     ARTICLE_EDIT = 'article_edit',
+    GAME = 'game',
 
     NOT_FOUND = 'not_found'
 }
@@ -32,6 +34,8 @@ export const RouterPath: Record<AppRoutes, string> = {
     [AppRoutes.ARTICLE_DETAILS]: '/articles/', // + id
     [AppRoutes.ARTICLE_CREATE]: '/articles/create',
     [AppRoutes.ARTICLE_EDIT]: '/articles/:id/edit',
+
+    [AppRoutes.GAME]: '/game',
 
     [AppRoutes.NOT_FOUND]: '*',
 };
@@ -69,6 +73,10 @@ export const routeConfig: Record<AppRoutes, AppRoutesProps> = {
         path: `${RouterPath.article_details}:id`,
         element: <ArticleEditPage />,
         authOnly: true,
+    },
+    [AppRoutes.GAME]: {
+        path: `${RouterPath.game}`,
+        element: <GamePage />,
     },
 
     [AppRoutes.NOT_FOUND]: {

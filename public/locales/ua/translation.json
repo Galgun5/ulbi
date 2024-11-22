@@ -10,10 +10,9 @@
   "logIn": "Увійти",
   "increment": "додати",
   "decrement": "відняти",
-  "Auth Form": "Auth Form",
-  "uncorrec login or password": "uncorrec login or password",
-  "uncorrect login or password": "uncorrect login or password",
-  "logOut": "logOut"
+  "Auth Form": "Форма Реестарації",
+  "uncorrect login or password": "невірний лигін чи пароль",
+  "logOut": "Вийти"
 }
 
 

@@ -1,37 +1,11 @@
-import { useCallback, useEffect } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
-import {
-    DynamicModuleLoader,
-    ReducerList,
-} from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
-import {
-    fetchProfileData,
-    getProfileError,
-    getProfileForm,
-    getProfileLoading,
-    getProfileReadonly,
-    getProfileValidateErrors,
-    ProfileCard,
-    profileActions,
-    profileReducer,
-    ValidateProfileError,
-} from 'entities_/Profile';
-import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch';
-import { useSelector } from 'react-redux';
-import { Currency } from 'entities_/Currency';
-import { Country } from 'entities_/Country';
-import { Text, TextTheme } from 'shared/ui/Text/Text';
 import { useTranslation } from 'react-i18next';
-import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect';
-import { useParams } from 'react-router-dom';
 import { Page } from 'widgets/Page/Page';
 import { VStack } from 'shared/ui/Stack';
-import { ProfilePageHeader } from './ProfilePageHeader/ProfilePageHeader';
+import { EditableProfileCard } from 'features/editableProfileCard';
+import { useParams } from 'react-router-dom';
+import { Text } from 'shared/ui/Text/Text';
 import cls from './ProfilePage.module.scss';
-
-const reducers: ReducerList = {
-    profile: profileReducer,
-};
 
 interface NotFoundPageProps {
     className?: string
@@ -39,107 +13,18 @@ interface NotFoundPageProps {
 
 const ProfilePage = ({ className }: NotFoundPageProps) => {
     const { t } = useTranslation('profile');
+    const { id } = useParams<{ id: string }>();
 
-    const form = useSelector(getProfileForm);
-    const error = useSelector(getProfileError);
-    const loading = useSelector(getProfileLoading);
-    const readOnly = useSelector(getProfileReadonly);
-    const validateErrors = useSelector(getProfileValidateErrors);
-
-    const { id } = useParams<{id: string}>();
-
-    const dispatch = useAppDispatch();
-
-    const validateErrorTranslates = {
-        [ValidateProfileError.SERVER_ERROR]: t('Server Error'),
-        [ValidateProfileError.NO_DATA]: t('No data'),
-        [ValidateProfileError.INCORRECT_AGE]: t('Incorrect age'),
-        [ValidateProfileError.INCORRECT_USER_DATA]: t('Incorrect user data'),
-        [ValidateProfileError.INCORRECT_COUNTRY]: t('Incorrect country'),
-    };
-
-    useInitialEffect(() => {
-        if (!id) return;
-        dispatch(fetchProfileData(id));
-    });
-
-    const onChangeFirstname = useCallback((value?: string) => {
-        dispatch(profileActions.updateProfile({
-            first: value || '',
-        }));
-    }, [dispatch]);
-
-    const onChangeLastname = useCallback((value?: string) => {
-        dispatch(profileActions.updateProfile({
-            lastname: value || '',
-        }));
-    }, [dispatch]);
-
-    const onChangeAge = useCallback((value?: string) => {
-        dispatch(profileActions.updateProfile({
-            age: Number(value || ''),
-        }));
-    }, [dispatch]);
-
-    const onChangeCity = useCallback((value?: string) => {
-        dispatch(profileActions.updateProfile({
-            city: value || '',
-        }));
-    }, [dispatch]);
-
-    const onChangeUsername = useCallback((value?: string) => {
-        dispatch(profileActions.updateProfile({
-            username: value || '',
-        }));
-    }, [dispatch]);
-
-    const onChangeAvatar = useCallback((value?: string) => {
-        dispatch(profileActions.updateProfile({
-            avatar: value || '',
-        }));
-    }, [dispatch]);
-
-    const onChangeCurrency = useCallback((currency?: Currency) => {
-        dispatch(profileActions.updateProfile({
-            currency,
-        }));
-    }, [dispatch]);
-
-    const onChangeCountry = useCallback((country?: Country) => {
-        dispatch(profileActions.updateProfile({
-            country,
-        }));
-    }, [dispatch]);
+    if (!id) {
+        return <Text text={t('Profile not found')} />;
+    }
 
     return (
-        <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
-            <Page className={classNames(cls.ProfilePage, {}, [className])}>
-                <VStack gap="16" max>
-                    <ProfilePageHeader />
-                    {validateErrors?.length && validateErrors.map((err) => (
-                        <Text
-                            key={err}
-                            theme={TextTheme.ERROR}
-                            text={validateErrorTranslates[err]}
-                        />
-                    ))}
-                    <ProfileCard
-                        data={form}
-                        loading={loading}
-                        error={error}
-                        readOnly={readOnly}
-                        onChangeFirstname={onChangeFirstname}
-                        onChangeLastname={onChangeLastname}
-                        onChangeAge={onChangeAge}
-                        onChangeCity={onChangeCity}
-                        onChangeUsername={onChangeUsername}
-                        onChangeAvatar={onChangeAvatar}
-                        onChangeCurrency={onChangeCurrency}
-                        onChangeCountry={onChangeCountry}
-                    />
-                </VStack>
-            </Page>
-        </DynamicModuleLoader>
+        <Page className={classNames(cls.ProfilePage, {}, [className])}>
+            <VStack gap="16" max>
+                <EditableProfileCard id={id} />
+            </VStack>
+        </Page>
     );
 };
 

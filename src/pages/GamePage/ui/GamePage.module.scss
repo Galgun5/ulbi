@@ -1,0 +1,94 @@
+.GamePage {
+    font: var(--font-l);
+}
+
+
+
+.field {
+    background: rgb(91 7 58 / 74%);
+    width: 625px;
+    height: 625px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.bar {
+    background: #d5ead5;
+    border-radius: 5px;
+}
+
+.tile {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    //transition: all 2000ms ease-in-out;
+}
+
+.reset {
+    margin-top: 20px;
+}
+
+.c2 {
+    background: #b3e5fc;
+}
+
+.c4 {
+    background: #c8e6c9;
+}
+
+.c8 {
+    background: #f2b179;
+}
+
+.c32 {
+    background: #ffccbc
+}
+
+.c64 {
+    background: #ffab91
+}
+
+.c128 {
+    background: #ff8a65
+}
+
+.c256 {
+    background: #ffd54f
+}
+
+.c512 {
+    background: #ffca28
+}
+
+.c1024 {
+    background: #ff7043
+}
+
+.c2048 {
+    background: #f44336
+}
+
+
+@mixin generate-positions($rows, $cols) {
+    @for $i from 0 through $rows {
+        @for $j from 0 through $cols {
+            .position-#{$i}_#{$j} {
+                top: #{5px + 150px * $i + 5px * $i};
+                left: #{5px + 150px * $j + 5px * $j};
+            }
+        }
+    }
+}
+
+// Use the mixin with 3 rows and 3 columns
+@include generate-positions(3, 3);
