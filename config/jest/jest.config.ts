@@ -35,6 +35,15 @@ const config = {
         '\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
         axios: 'axios/dist/node/axios.cjs',
     },
+    reporters: [
+        'default',
+        ['jest-html-reporters', {
+            publicPath: '<rootDir>/reports/unit',
+            filename: 'report.html',
+            openReport: true,
+            inlineSource: true,
+        }],
+    ],
 };
 
 export default config;
