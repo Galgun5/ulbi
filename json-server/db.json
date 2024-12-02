@@ -953,21 +953,21 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "admin",
+      "roles": ["ADMIN"],
       "avatar": "https://i.pravatar.cc/?img=9"
     },
     {
       "id": "2",
       "username": "Nick",
       "password": "123",
-      "role": "USER",
+      "roles": ["USER"],
       "avatar": "https://i.pravatar.cc/?img=12"
     },
     {
       "id": "3",
       "username": "DEN",
       "password": "123",
-      "role": "USER",
+      "roles": ["USER"],
       "avatar": "https://i.pravatar.cc/?img=11"
     }
   ],

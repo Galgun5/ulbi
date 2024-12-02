@@ -4,7 +4,9 @@ import { useTranslation } from 'react-i18next';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { LoginModal } from 'features/AuthByUserName';
 import { useDispatch, useSelector } from 'react-redux';
-import { getAuthUserData, userActions } from 'entities_/User';
+import {
+    getAuthUserData, isUserAdmin, isUserManager, userActions,
+} from 'entities_/User';
 import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
 import { Text, TextTheme } from 'shared/ui/Text/Text';
 import { RouterPath } from 'shared/config/routeConfig/routeConfig';
@@ -23,6 +25,8 @@ export const NavBar = memo(({ className }: NavBarProps) => {
     const [isAuthModal, setIsAuthModal] = useState(false);
 
     const authData = useSelector(getAuthUserData);
+    const isAdmin = useSelector(isUserAdmin);
+    const isManager = useSelector(isUserManager);
 
     const onCloseModal = useCallback(() => {
         setIsAuthModal(false);
@@ -35,6 +39,8 @@ export const NavBar = memo(({ className }: NavBarProps) => {
     const onLogout = useCallback(() => {
         dispatch(userActions.logout());
     }, [dispatch]);
+
+    const isAdminPanelAvailable = isAdmin || isManager;
 
     if (authData) {
         return (
@@ -54,6 +60,10 @@ export const NavBar = memo(({ className }: NavBarProps) => {
                 <Dropdown
                     className={cls.dropdown}
                     items={[
+                        ...(isAdminPanelAvailable ? [{
+                            content: t('Admin Panel'),
+                            href: RouterPath.admin_panel,
+                        }] : []),
                         {
                             content: t('Profile'),
                             href: RouterPath.profile + authData.id,
