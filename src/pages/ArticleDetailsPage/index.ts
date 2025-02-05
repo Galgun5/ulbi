@@ -1,6 +1,6 @@
 export { articleDetailsPageReducer } from './model/slices';
 
-export {
+export type {
     ArticleDetailsRecommendationsSchema,
 } from './model/types/ArticleDetailsRecommendationsSchema';
 
@@ -8,7 +8,7 @@ export {
     ArticleDetailsPageAsync as ArticleDetailsPage,
 } from './ui/ArticleDetailsPage/ArticleDetailsPage.async';
 
-export {
+export type {
     ArticleDetailsCommentsSchema,
 } from './model/types/ArticleDetailsCommentsSchema';
-export { ArticleDetailsPageSchema } from './model/types';
+export type { ArticleDetailsPageSchema } from './model/types';

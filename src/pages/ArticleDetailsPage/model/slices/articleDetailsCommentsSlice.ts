@@ -3,7 +3,7 @@ import {
     createSlice, PayloadAction,
 } from '@reduxjs/toolkit';
 
-import { Comment } from 'entities_/Comment';
+import type { Comment } from 'entities_/Comment';
 import { StateSchema } from 'app/providers/StoreProvider';
 
 import {

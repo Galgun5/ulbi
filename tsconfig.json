@@ -14,6 +14,7 @@
     },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
     "skipLibCheck": true
   },
   "ts-node": {
